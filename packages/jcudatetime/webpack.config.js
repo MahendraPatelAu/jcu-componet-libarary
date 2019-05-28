@@ -3,7 +3,11 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   entry: {
-    JcuDateTime: './src/JcuDateTime.js'
+    JcuDateTime: './src/JcuDateTime/JcuDateTime.js',
+    JcuDate: './src/JcuDateTime/JcuDate.js',
+    JcuTime: './src/JcuDateTime/JcuTime.js',
+    Footer: './src/Footer/index.js',
+    Content: './src/Content/index.js'
   },
   output: {
     path: path.resolve(__dirname, 'lib'),
