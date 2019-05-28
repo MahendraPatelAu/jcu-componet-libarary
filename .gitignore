@@ -1,3 +1,7 @@
+**/node_modules
+**/lib
+**/project
+
 # Logs
 logs
 *.log
@@ -74,3 +78,4 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
