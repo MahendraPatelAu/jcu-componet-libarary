@@ -2,6 +2,10 @@
 **/lib
 **/project
 
+.idea
+*.iml
+.project
+
 # Logs
 logs
 *.log
